@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Home - Cornell Baja Racing</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- =======================================================
+  * Template Name: Squadfree - v2.2.0
+  * Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo mr-auto">
+        <a href="index.html"><img src="assets/img/logo_header.png" alt="" class="img-fluid"></a>
+        <h1 class="text-light"><a href="index.html"><span>Cornell Baja Racing</span></a></h1>
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a
+              href="https://crowdfunding.cornell.edu/project/39597?clid=UfeIGn4VRZ2M7O4SGWCJEZ&utm_campaign=site_share&utm_medium=plain&utm_source=scalefunder">Donate</a>
+          </li>
+          <!--<li><a href="apply.html">Apply</a></li>-->
+          <li><a href="about.html">About</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="timeline.html">History</a></li>
+          <li><a href="sponsors.html">Sponsors</a></li>
+          <li><a href="girlsofbaja.html">#girlsofbaja</a></li>
+          <li><a href="contact.html">Contact</a></li>
+
+          </li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- Carousel -->
+
+  <style>
+    * {
+      box-sizing: border-box
+    }
+
+    body {
+      font-family: Verdana, sans-serif;
+      margin: 0
+    }
+
+    .mySlides {
+      display: none
+    }
+
+    img {
+      vertical-align: middle;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 2000px;
+      max-height: 650px;
+      position: relative;
+      margin: auto;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: var(--baja-white);
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Caption text */
+    .text {
+      color: whitesmoke;
+      font-family: "Raleway", sans-serif;
+      font-size: 50px;
+      padding: 0px 0px;
+      position: absolute;
+      bottom: 200px;
+      right: 50px;
+      width: 100%;
+      text-align: right;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+      position: relative;
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+
+    .active,
+    .dot:hover {
+      background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    @keyframes fade {
+      from {
+        opacity: .4
+      }
+
+      to {
+        opacity: 1
+      }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+
+      .prev,
+      .next,
+      .text {
+        font-size: 11px
+      }
+    }
+
+    @media (max-width: 480px) {
+      .text {
+        text-align: center;
+        right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      img {
+        object-position: left;
+      }
+    }
+
+    /*All Phones*/
+    @media (max-width: 896px) {
+      img {
+        height: 70vh;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .slideshow-container {
+        margin-bottom: 0;
+      }
+
+      .text {
+        font-size: 30px;
+        bottom: 20px;
+      }
+
+      .dot {
+        margin: 20px 2px;
+      }
+
+      #dots {
+        background-color: var(--baja-dark-gray);
+      }
+    }
+  </style>
+  </head>
+
+  <body>
+
+    <div class="slideshow-container">
+
+      <div class="mySlides">
+        <img src="assets/img/hands.JPG" style="width:100%" height="150%">
+        <h3 class="text">Cornell Baja Racing<br>
+          Design. Build. Race.<br>
+          <a href="apply.html"><button>Apply for Fall 2023</button></a>
+        </h3>
+      </div>
+
+      <div class="mySlides">
+        <img src="assets/img/nat_and_car.jpg" style="width:100%">
+        <h3 class="text">2022 "OD18" <br>Competition <br> Video<br><a href="https://www.youtube.com/watch?v=m7ClN-FUPSU"
+            style="font-size:24px"><button>Play <i class="fa fa-play"></button></i></a></h3>
+      </div>
+
+      <div class="mySlides">
+        <img src="assets/img/kyra.jpg" style="width:100%">
+        <h3 class="text">2022-2023 <br> "TG19" <br> Oregon Competition</h3>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+    <div id="dots" style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+
+
+    <main id="main">
+
+
+
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container">
+
+          <div class="row no-gutters">
+            <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
+              <img src="assets/img/nat_karo.jpg" alt="">
+              <div id="next">
+                <h3>About Us</h3>
+                <p class="about-us">
+                  Cornell Baja SAE Racing is an engineering project team which annually designs, builds and races an
+                  off-road vehicle to compete in the SAE Collegiate Baja Design Series. By encouraging hands-on
+                  engineering and project-based learning, Cornell Baja takes engineering out of the classroom (and onto
+                  the track) for 50+ students annually. Each year, our research moves through 3 stages of review before
+                  our design is finalized: Preliminary Review, Critical Review, and Final Review. During this time,
+                  we’re also modifying our older cars, so we can test new designs on prior vehicles. Following
+                  our final review, we move to our build phase. Each year, we continue to innovate and
+                  improve—redesigning even the smallest components. We balance hard work with a passion for our car, and
+                  we think that passion really makes the difference. The competition requires students to balance design
+                  and cost with dynamic performance while following a strict set of safety guidelines and standardized
+                  rules.
+                </p>
+                <a href="about.html" class="about-btn">More about Baja SAE <i class="bx bx-chevron-right"></i></a>
+              </div>
+            </div>
+
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/m7ClN-FUPSU"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+        </div>
+
+        </div>
+      </section><!-- End About Section -->
+
+
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="icon-container">
+
+          <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+            <h2 class="icon-h2">Subteams</h2>
+            <p class="icon-h2">Cornell Baja Racing has six subteams across engineering, design, and business.</p>
+          </div>
+
+          <div class="row">
+            <a href="team.html#drivetrain">
+              <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="icon-box" data-aos="fade-up">
+                  <div class="icon"><i class="icofont-automation"></i></div>
+                  <h4 class="title"><a href="team.html#drivetrain">Drivetrain</a></h4>
+                  <p class="description">The drivetrain subteam designs and manufactures the vehicle's custom CVT,
+                    gearbox, driveshafts, and wheel hubs.</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="team.html#suspension">
+              <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <div class="icon"><i class="bx bx-car"></i></div>
+                  <h4 class="title"><a href="team.html#suspension">Suspension</a></h4>
+                  <p class="description">The suspension subteam is responsible for defining and achieving the desired
+                    handling characteristics of the car.</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="team.html#frame">
+              <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <div class="icon"><i class="bx bx-outline"></i></div>
+                  <h4 class="title"><a href="team.html#frame">Frame</a></h4>
+                  <p class="description">The frame subteam is tasked with designing and manufacturing the roll cage and
+                    main structure of the Baja car.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="row" style="border-radius:50%;">
+            <a href="team.html#brakes">
+              <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="icon-box" data-aos="fade-up">
+                  <div class="icon"><i class="bx bx-tachometer"></i></div>
+                  <h4 class="title"><a href="team.html#brakes">Brakes</a></h4>
+                  <p class="description">The brakes subteam designs and manufactures custom master cylinders, rotors,
+                    and calipers.</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="team.html#ergonomics">
+              <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <div class="icon"><i class="icofont-steering"></i></div>
+                  <h4 class="title"><a href="team.html#ergonomics">Ergonomics</a></h4>
+                  <p class="description">The composites and ergonomics subteam designs and builds the seat, steering
+                    wheel and body panels.</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="team.html#business">
+              <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <div class="icon"><i class="icofont-briefcase"></i></div>
+                  <h4 class="title"><a href="team.html#business">Business</a></h4>
+                  <p class="description">The business subteam acts as the liaison between the team and the Cornell
+                    community.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        </div>
+
+        </div>
+      </section><!-- End Services Section -->
+
+
+
+
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-info" data-aos="fade-up" data-aos-delay="50">
+                <h3>Cornell Baja Racing</h3>
+                <p class="pb-3"><em>Design. Build. Race.</em></p>
+                <p>
+                  Contact us using<br>
+                  the emails below:<br><br>
+                  <strong>General Inquiries:</strong> <a
+                    href="mailto:cornell.baja@gmail.com">cornell.baja@gmail.com</a><br>
+                  <strong>Sponsorships:</strong> <a href="mailto:vb272@cornell.edu">vb272@cornell.edu</a><br>
+                </p>
+                <div class="social-links mt-3">
+                  <a href="https://www.facebook.com/CornellBajaRacing" class="facebook"><i
+                      class="bx bxl-facebook"></i></a>
+                  <a href="https://www.instagram.com/cornellbajaracing/" class="instagram"><i
+                      class="bx bxl-instagram"></i></a>
+                  <a href="https://twitter.com/cubaja" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="https://www.youtube.com/channel/UCWR_k8SY67ITAh7-pS7St8w" class="youtube"><i
+                      class="bx bxl-youtube"></i></a>
+                  <!--<a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>-->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="150">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+                <!--<li><i class="bx bx-chevron-right"></i> <a href="apply.html">Apply</a></li>-->
+                <li><i class="bx bx-chevron-right"></i> <a href="about.html">About</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="team.html">Team</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="timeline.html">History</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="sponsors.html">Sponsors</a></li>
+                <li><i class="bx bx-chevron-right"></i> <a href="girlsofbaja.html">#girlsofbaja</a></li>
+              </ul>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 footer-newsletter" data-aos="fade-up" data-aos-delay="350">
+              <h4>Subscribe to Our Newsletter</h4>
+              <p>Enter your email below to stay updated about competition results and future projects!</p>
+              <form action="" method="post">
+                <input type="email" name="email"><input type="submit" value="Subscribe">
+              </form>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Squadfree</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+  </body>
+
+</html>
