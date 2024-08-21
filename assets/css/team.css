@@ -34,6 +34,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.row {
+  justify-content: center;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1115,7 +1119,9 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+
 .team .member {
+  justify-content: center;
   text-align: center;
   position: relative;
   margin-left: 15px;
@@ -1124,10 +1130,12 @@ section {
 }
 
 .team #lead {
+  justify-content: center;
   margin-bottom: 0;
 }
 
 .team .member .pic {
+  justify-content: center;
   overflow: hidden;
   object-fit: cover;
   width: 250px;
@@ -1136,6 +1144,7 @@ section {
 }
 
 .team #lead .pic {
+  justify-content: center;
   overflow: hidden;
   object-fit: cover;
   width: 300px;
@@ -1144,6 +1153,7 @@ section {
 }
 
 .team .member .member-info {
+  justify-content: center;
   position: absolute;
   top: 85%;
   left: 20px;
@@ -1160,6 +1170,7 @@ section {
 }
 
 .team #lead .member-info {
+  justify-content: center;
   margin-right: 20px;
 }
 
@@ -1168,6 +1179,7 @@ section {
 }
 
 .team .member h4 {
+  
   font-weight: 500;
   margin-bottom: 10px;
   font-size: 16px;
@@ -1192,6 +1204,7 @@ section {
 }
 
 .team .member span {
+  justify-content: center;
   font-style: italic;
   display: block;
   font-size: 13px;
@@ -1218,6 +1231,7 @@ section {
 /* Mobile Version*/
 @media (max-width: 480px) {
   .team .member {
+    
     text-align: center;
     margin-bottom: 100px;
     position: relative;
