@@ -12,7 +12,7 @@ $headers = "From: $email" . "\r\n" .
 "X-Mailer: PHP/" . phpversion();
 
 if(isset($_POST['submit']) && ($_POST['human']) == '4') {
-mail ('jkm253@cornell.edu', $subject, $body, $headers);  //mail sends it to the SMTP server side which sends the email
+mail ('vb272@cornell.edu', $subject, $body, $headers);  //mail sends it to the SMTP server side which sends the email
     echo "<p>Your message has been sent!</p>";
 }
 
