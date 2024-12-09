@@ -16,6 +16,7 @@
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -45,7 +46,7 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="apply.html">Apply</a></li>
-          <li><a href="https://crowdfunding.cornell.edu/project/44465">Donate</a></li>
+          <!-- UNCOMMENT WHEN CROWDFUNDING OCT-DEC <li><a href="https://crowdfunding.cornell.edu/project/44465">Donate</a></li> -->
           <li><a href="about.html">About</a></li>
           <li class="active"><a href="team.html">Team</a></li>
           <li><a href="timeline.html">History</a></li>
@@ -191,9 +192,11 @@
       <div class="row">
     
           <div class="member" data-aos="fade-up" data-aos-delay="100">
-            <div class="pic"><img src="assets/img/headshots/Natalie_Dowd.png" class="img-fluid" alt=""></div>
+            <div class="pic">
+              <img src="assets/img/headshots/Natalie_Dowd.png" class="img-fluid" alt="">
+            </div>
             <div class="member-info">
-              <h4 id="bold-name"> Natalie Dowd </h4>
+              <h4 id="bold-name">Natalie Dowd</h4>
               <span>Mechanical Engineering '25</span>
               <div class="social">
                 <a href="https://www.linkedin.com/in/nataliemdowd/"><i class="icofont-linkedin"></i></a>
@@ -291,22 +294,24 @@
 
 
       <div class="row">
-        <div class="member" data-aos="fade-up">
+        <div class="member lead" data-aos="fade-up">
           <div class="pic"><img src="assets/img/headshots/Raj_Singh.png" class="img-fluid" alt=""></div>
           <div class="member-info">
             <h4 id="bold-name">Raj Singh</h4>
             <span>Mechanical Engineering '26</span>
+            <p class="role">Powertrain Lead</p>
             <div class="social">
               <a href="https://www.linkedin.com/in/rajan-singh-998b9a23a/"><i class="icofont-linkedin"></i></a>
             </div>
           </div>
         </div>
 
-        <div class="member" data-aos="fade-up">
+        <div class="member lead" data-aos="fade-up">
           <div class="pic"><img src="assets/img/headshots/Zoe_Szymanski.png" class="img-fluid" alt=""></div>
           <div class="member-info">
             <h4 id="bold-name">Zoe Szymanski</h4>
             <span>Mechanical Engineering '26</span>
+            <p class="role">Geartrain Lead</p>
             <div class="social">
               <a href="https://www.linkedin.com/in/zoe-szymanski-b08755225/"><i class="icofont-linkedin"></i></a>
             </div>
@@ -336,17 +341,6 @@
         </div>
 
         <div class="member" data-aos="fade-up">
-          <div class="pic"><img src="assets/img/headshots/Maya_Chakraborty.png" class="img-fluid" alt=""></div>
-          <div class="member-info">
-            <h4 id="bold-name">Damayanti Chakraborty</h4>
-            <span>Mechanical Engineering '27</span>
-            <div class="social">
-              <a href="https://www.linkedin.com/in/damayantichakraborty"><i class="icofont-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="member" data-aos="fade-up">
           <div class="pic"><img src="assets/img/headshots/Ella_Yellin.png" class="img-fluid" alt=""></div>
           <div class="member-info">
             <h4 id="bold-name">Ella Yellin </h4>
@@ -354,6 +348,28 @@
 
             <div class="social">
               <a href="https://www.linkedin.com/in/ella-yellin"><i class="icofont-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="member" data-aos="fade-up">
+          <div class="pic"><img src="assets/img/headshots/Carlota_Champalimaud.png" class="img-fluid" alt=""></div>
+          <div class="member-info">
+            <h4 id="bold-name">Carlota Champalimaud</h4>
+            <span>Mechanical Engineering '26</span>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/carlota-champalimaud/"><i class="icofont-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="member" data-aos="fade-up">
+          <div class="pic"><img src="assets/img/headshots/Maya_Chakraborty.png" class="img-fluid" alt=""></div>
+          <div class="member-info">
+            <h4 id="bold-name">Damayanti Chakraborty</h4>
+            <span>Mechanical Engineering '27</span>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/damayantichakraborty"><i class="icofont-linkedin"></i></a>
             </div>
           </div>
         </div>
@@ -392,23 +408,7 @@
             </div>
           </div>
         </div>
-
-
-        <div class="member" data-aos="fade-up">
-          <div class="pic"><img src="assets/img/15.png" class="img-fluid" alt=""></div>
-          <div class="member-info">
-            <h4 id="bold-name">Carlota Champalimaud</h4>
-            <span>Mechanical Engineering '26</span>
-            <div class="social">
-              <a href="https://www.linkedin.com/in/carlota-champalimaud/"><i class="icofont-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-        
-
-
       </div>
-
     </div>
 
     </div>
@@ -431,11 +431,12 @@
 
       <div class="row">
 
-        <div class="member" data-aos="fade-up">
+        <div class="member lead" data-aos="fade-up">
           <div class="pic"><img src="assets/img/headshots/Horatio_Cordero.png" class="img-fluid" alt=""></div>
           <div class="member-info">
             <h4 id="bold-name">Horatio Cordero</h4>
             <span>Mechanical Engineering '26</span>
+            <p class="role">Suspension Lead</p>
             <div class="social">
               <a href="https://www.linkedin.com/in/horatio-cordero/"><i class="icofont-linkedin"></i></a>
             </div>
@@ -466,7 +467,7 @@
         </div>
   
         <div class="member" data-aos="fade-up">
-          <div class="pic"><img src="assets/img/lukas.png" class="img-fluid" alt=""></div>
+          <div class="pic"><img src="assets/img/headshots/Lukas_Minutello.png" class="img-fluid" alt=""></div>
           <div class="member-info">
             <h4 id="bold-name">Lukas Minutello</h4>
             <span>Mechanical Engineering '26</span>
@@ -533,11 +534,12 @@
       <div class="row">
 
 
-        <div class="member" data-aos="fade-up">
+        <div class="member lead" data-aos="fade-up">
           <div class="pic"><img src="assets/img/headshots/Sara_Pagliuco.png" class="img-fluid" alt=""></div>
           <div class="member-info">
             <h4 id="bold-name">Sara Pagliuco</h4>
             <span>Engineering '26</span>
+            <p class="role">Frame Lead</p>
             <div class="social">
               <a href="https://www.linkedin.com/in/sara-pagliuco-b91876216/"><i class="icofont-linkedin"></i></a>
             </div>
@@ -596,11 +598,12 @@
       <div class="row">
 
 
-        <div class="member" data-aos="fade-up">
+        <div class="member lead" data-aos="fade-up">
           <div class="pic"><img src="assets/img/headshots/Charlie_Cohen.png" class="img-fluid" alt=""></div>
           <div class="member-info">
             <h4 id="bold-name">Charlie Cohen</h4>
             <span>Mechanical Engineering '26</span>
+            <p class="role">Brakes Lead</p>
             <div class="social">
               <a href="https://www.linkedin.com/in/charliemcohen/"><i class="icofont-linkedin"></i></a>
             </div>
@@ -663,11 +666,12 @@
 
 
       <div class="row">
-        <div class="member" data-aos="fade-up">
+        <div class="member lead" data-aos="fade-up">
           <div class="pic"><img src="assets/img/headshots/James_Sy.png" class="img-fluid" alt=""></div>
           <div class="member-info">
             <h4 id="bold-name">James Sy</h4>
             <span>Computer Science '25</span>
+            <p class="role">Business Lead</p>
             <div class="social">
               <a href="https://www.linkedin.com/in/james-sy-8520581aa/"><i class="icofont-linkedin"></i></a>
             </div>
@@ -766,7 +770,7 @@
         </div>
 
         <div class="member" data-aos="fade-up" data-aos-delay="300">
-          <div class="pic"><img src="assets/img/alex.png" class="img-fluid" alt=""></div>
+          <div class="pic"><img src="assets/img/headshots/Alex_Hallstrom.png" class="img-fluid" alt=""></div>
           <div class="member-info">
             <h4 id="bold-name"> Alex Hallstrom </h4>
             <span>Mechanical Engineering '25</span>
@@ -862,6 +866,18 @@
           <span>Mechanical Engineering '28</span>
           <div class="social">
             <a href="https://www.linkedin.com/in/susannaufr"><i class="icofont-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rex Popick -->
+      <div class="member" data-aos="fade-up">
+        <div class="pic"><img src="assets/img/headshots/Rex_Popick.png" class="img-fluid" alt=""></div>
+        <div class="member-info">
+          <h4 id="bold-name">Rex Popick</h4>
+          <span>Computer Science '28</span>
+          <div class="social">
+            <a href="https://www.linkedin.com/in/rex-popick"><i class="icofont-linkedin"></i></a>
           </div>
         </div>
       </div>
@@ -969,18 +985,6 @@
           <span>Mechanical Engineering '28</span>
           <div class="social">
             <a href="https://www.linkedin.com/in/mallory-moore-cornell"><i class="icofont-linkedin"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Rex Popick -->
-      <div class="member" data-aos="fade-up">
-        <div class="pic"><img src="assets/img/headshots/Rex_Popick.png" class="img-fluid" alt=""></div>
-        <div class="member-info">
-          <h4 id="bold-name">Rex Popick</h4>
-          <span>Computer Science '28</span>
-          <div class="social">
-            <a href="https://www.linkedin.com/in/rex-popick"><i class="icofont-linkedin"></i></a>
           </div>
         </div>
       </div>
