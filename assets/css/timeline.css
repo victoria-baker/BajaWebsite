@@ -361,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/teamline_img/timelinehero.jpg") top center;
+  background: url("../img/timeline_img/timelinehero.jpg") top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -2031,7 +2031,7 @@ html, body {
     left: 50%;
     background-color: #333333;
 }
-
+/* 
 @media (max-width: 800px) {
     .point {
         min-width: 15px;
@@ -2042,7 +2042,30 @@ html, body {
         font-size: 15px;
     }
 
+} */
+
+.podium {
+  font-weight: 600;
+
 }
+
+.podiumMike {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+
+@media (max-width: 1350px) {
+  .timeline::before {
+    display: none;
+  }
+  
+  .point {
+    display: none; /* Hide the red dots */
+  }
+}
+
 
 @media (max-width: 650px) {
     html, body {

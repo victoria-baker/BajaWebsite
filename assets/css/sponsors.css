@@ -376,7 +376,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/sponsors_img/sponsors_hero.jpg") top center;
+  background: url("../img/sponsors_img/sponsors_hero.webp") top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
